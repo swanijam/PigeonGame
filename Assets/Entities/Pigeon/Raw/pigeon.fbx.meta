@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 8520b82720b0ec24d8c01db7f617e7c8
+timeCreated: 1513909682
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: head
+    100002: hips
+    100004: left_ankle
+    100006: left_back_talon
+    100008: left_foot
+    100010: left_front_talon
+    100012: left_leg
+    100014: left_wing_2
+    100016: left_wing_3
+    100018: left_wing_4
+    100020: left_wing_base
+    100022: neck
+    100024: //RootNode
+    100026: pigeon 1
+    100028: right_ankle
+    100030: right_back_talon
+    100032: right_foot
+    100034: right_front_talon
+    100036: right_leg
+    100038: right_wing_2
+    100040: right_wing_3
+    100042: right_wing_4
+    100044: right_wing_base
+    100046: spine_tail
+    100048: spine_wing
+    100050: tail
+    400000: head
+    400002: hips
+    400004: left_ankle
+    400006: left_back_talon
+    400008: left_foot
+    400010: left_front_talon
+    400012: left_leg
+    400014: left_wing_2
+    400016: left_wing_3
+    400018: left_wing_4
+    400020: left_wing_base
+    400022: neck
+    400024: //RootNode
+    400026: pigeon 1
+    400028: right_ankle
+    400030: right_back_talon
+    400032: right_foot
+    400034: right_front_talon
+    400036: right_leg
+    400038: right_wing_2
+    400040: right_wing_3
+    400042: right_wing_4
+    400044: right_wing_base
+    400046: spine_tail
+    400048: spine_wing
+    400050: tail
+    4300000: pigeon
+    9500000: //RootNode
+    13700000: pigeon 1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: bb9ef213bfaca314fae53f2692c6be82, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: head
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
