@@ -3,23 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// https://unity3d.com/learn/tutorials/projects/2d-ufo-tutorial/following-player-camera
+/// Script to make a camera follow and rotate around a target
 /// </summary>
+/// <remarks>https://answers.unity.com/answers/600774/view.html</remarks>
 public class FollowTarget : MonoBehaviour {
 
+    public float TURN_SPEED = 2.0f;
     public Transform TARGET;
-    private Vector3 _distance;
 
-    private void Start()
+    private Vector3 offset;
+
+    void Start()
     {
-        _distance = TARGET.position - this.transform.position;
+        offset = new Vector3(TARGET.position.x, TARGET.position.y + 0.25f, TARGET.position.z + 0.75f);
     }
 
-    // Update is called once per frame
-    void Update () {
-		if (TARGET != null)
-        {
-            this.transform.position = TARGET.position - _distance;
-        }
-	}
+    void LateUpdate()
+    {
+        offset = Quaternion.AngleAxis(GameManager.GetInstance().INPUTHANDLER.GetHorizontalCameraInput() * TURN_SPEED, Vector3.up) * offset;
+        transform.position = TARGET.position + offset;
+        transform.LookAt(TARGET.position);
+    }
 }

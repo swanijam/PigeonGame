@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// Author: Corwin Belser
+/// <summary>
+/// Attach to a GameObject to cause i
+/// </summary>
 public class Bounce : MonoBehaviour {
 
     public Transform ROOT_TRANSFORM;
@@ -16,7 +20,7 @@ public class Bounce : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.anyKeyDown && _rigidBodies != null && _rigidBodies.Length != 0)
+		if (GameManager.GetInstance().INPUTHANDLER.GetJumpInput() && _rigidBodies != null && _rigidBodies.Length != 0)
         {
             RaycastHit hit;
             Ray ray = new Ray(ROOT_TRANSFORM.position, Vector3.down);
